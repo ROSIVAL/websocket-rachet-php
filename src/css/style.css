@@ -1,0 +1,106 @@
+html,
+body {
+    background-image:url(../img/background.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center; 
+    display: flex;
+    flex: 1;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    font-size: 1.2em;
+    color:#DDD;
+}
+
+.containerPanel {
+    display: flex;
+    justify-Content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex: 1;
+    overflow: auto;
+    padding: 3%;
+    margin: 0 auto;
+    width: 95%;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.3);
+    margin-top: 10px;
+}
+
+.form-control, .form-control:focus{
+    color: #fff;
+    background-color: rgba(0,0,0,0.5)!important;
+    border: 1px solid rgba(0,0,0,0.9);
+}
+
+.footerContainer {
+    display: flex;
+    /* justify-Content:center; */
+    text-align: center;
+    flex: 1;
+    /* border: 2px dashed #900; */
+    flex-direction: column;
+    align-items: center;
+    color: #000;
+
+}
+
+hr {
+    border: 1px solid #DDD;
+    width: 90%;
+}
+
+#messages {
+    display: flex;
+    /* border: 1px dashed #ddd; */
+    width: 90%;
+    color: #DDD;
+    overflow-y: auto; 
+}
+
+table {
+    width: 100%;
+    /* border: 1px solid #900; */
+
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #000;
+    padding: 3px;
+    justify-content: center;
+    font-size: 15px;
+}
+
+tr {
+    padding: 2px 1px;
+
+}
+
+tr:nth-child(even) {
+    background: rgba(0,0,0,0.3);
+    padding: 3px 3px;
+}
+
+td {
+    padding: 3px 10px;
+    display: table-cell;
+    vertical-align: inherit;
+    text-align: left;
+    font-size: 1.0em;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.titleMSG {
+    margin: 0 auto;
+    border-bottom: 1px solid #ddd;
+    width: 90%;
+    text-align: center;
+    padding: 1%;
+}
